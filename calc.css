@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures consistent width/height calculations */
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh;           /* Full viewport height */
+    text-align: center;      /* Center text within elements */
+}
+
+.container {
+    margin: 21px;
+    border: 2px solid black;
+    display: flex
+;
+    padding: 9px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f9f9f9;
+}
+
+.first {
+    height: 48vh;
+    width: 80vmin;
+
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;     /* Center content vertically */
+}
+
+.second {
+    height: 52vh;
+    width: 80vmin;
+
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;     /* Center content vertically */
+    flex-wrap: wrap;         /* Wrap content if needed */
+    background-color: #ffe0b2; /* Optional: background for clarity */
+}
+
+.btn {
+    width: 15vmin;
+    height: 62px;
+    margin: 5px;             /* Proper margin between buttons */
+    background-color: #f09f08; /* Button color */
+    color: white;
+    border-radius: 70px;      /* Rounded corners */
+    font-size: 2rem;
+    border: none;
+}
+.btn1{
+    width: 15vmin;
+    height: 62px;
+    margin: 5px;             /* Proper margin between buttons */
+    background-color: #f8f7f5; /* Button color */
+    color: rgb(22, 16, 16);
+    border-radius: 70px;      /* Rounded corners */
+    font-size: 2rem;
+    border: none;
+    
+}
+.btn:hover {
+    background-color: #c98609; /* Button color */
+}
+.btn1:hover{
+    background-color: #d6cfcf;
+}
+
+.ip{
+    width: 59vmin;
+    height: 49px;
+    position: absolute;
+    bottom: 54vh;
+    right: 86vh;
+    font-size: 1.5rem;
+}
+.ac{
+    position: absolute;
+    bottom: 53vh;
+    right: 66vh;
+    width: 17vmin;
+}
